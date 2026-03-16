@@ -1,0 +1,122 @@
+/* ===============================
+   GLOBAL STYLES
+================================ */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+.navbar-brand {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   HERO SECTION
+================================ */
+section.bg-light h1 {
+    color: #1b5e20;
+}
+
+section.bg-light p {
+    font-size: 1.05rem;
+}
+
+/* ===============================
+   CATEGORY CARDS
+================================ */
+.category-card {
+    border: none;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.category-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.category-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+footer {
+    font-size: 0.9rem;
+}
+
+/* ===============================
+   BUTTON OVERRIDES
+================================ */
+.btn-success {
+    background-color: #2e7d32;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #1b5e20;
+}
+.category-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* ===============================
+   PRODUCT GRID
+================================ */
+.product-card {
+    border: none;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    background-color: #ffffff;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.product-img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    background-color: #fff;
+}
+.category-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+.category-card:active {
+    transform: scale(0.98);
+}
+.nav-link i {
+    margin-right: 4px;
+    font-size: 1.1rem;
+}
+
+.navbar-brand i {
+    margin-right: 6px;
+}
